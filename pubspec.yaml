@@ -1,0 +1,45 @@
+name: ra_console
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  font_awesome_flutter: ^9.0.0-nullsafety
+  http: ^0.13.0
+  path_provider: ^2.0.1
+  shared_preferences: ^2.0.4
+  sentry_flutter: ^4.1.0-nullsafety.1
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.9.0
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "lib/assets/icon/icon.png"
+  adaptive_icon_background: "#ff151c20"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - lib/assets/images/
+  fonts:
+      - family: Montserrat
+        fonts:
+          - asset: lib/assets/fonts/Montserrat/Montserrat-Bold.ttf
+            weight: 600
+          - asset: lib/assets/fonts/Montserrat/Montserrat-Medium.ttf
+            weight: 400
+          - asset: lib/assets/fonts/Montserrat/Montserrat-SemiBold.ttf
+            weight: 500
+          - asset: lib/assets/fonts/Montserrat/Montserrat-Light.ttf
+            weight: 300

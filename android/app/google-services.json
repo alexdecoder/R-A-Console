@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "209865019388",
+    "project_id": "ra-console-1e493",
+    "storage_bucket": "ra-console-1e493.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:209865019388:android:6b68910ada6894b83c6c79",
+        "android_client_info": {
+          "package_name": "com.syncronosys.ra_console"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "209865019388-ghhaltggmkk1hj3rd548ip5ddp43f9cc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCr3vHo9G_dZ6he5EeRF4B4rvKoHk6oMNY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "209865019388-ghhaltggmkk1hj3rd548ip5ddp43f9cc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
